@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6f9;
+}
+
+.container {
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background: #ff6b00;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #e55d00;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
