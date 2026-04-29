@@ -1,36 +1,69 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #f4f6f9;
+  font-family: Arial;
+  background: #fdf6ec;
+}
+
+header {
+  background: #7b3f00;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  background: #d2691e;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
 }
 
 .container {
   padding: 40px;
+  text-align: center;
 }
 
 .card {
   background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  padding: 30px;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px gray;
 }
 
-.button {
-  padding: 10px 20px;
-  background: #ff6b00;
-  border: none;
+input,
+textarea {
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+button {
+  background: #7b3f00;
   color: white;
-  border-radius: 6px;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
   cursor: pointer;
-}
-
-.button:hover {
-  background: #e55d00;
-}
-
-.dashboard-title {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 20px;
 }
